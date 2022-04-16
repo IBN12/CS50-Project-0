@@ -1,0 +1,93 @@
+/* Right_Corner_Link_Section - This is the top right corner link section */
+#Right_Corner_Link_Section{
+    text-align:right;
+    /* background-color:aqua; */
+    padding: 20px;
+}
+
+/*Right_Corner_Links - The links in the right corner link section*/
+.Right_Corner_Links{
+    font-size: 15px;
+    font-family:Arial; 
+    margin:10px;
+    text-decoration:none;
+    color:black;
+}
+.Right_Corner_Links:hover{
+    text-decoration:underline;
+}
+
+/* Google_Logo_Section - The google logo section */
+#Google_Logo_Section{
+    /* background-color:orange; */
+    margin-top:5px;
+    padding-left: 20px;
+}
+
+/* Advanced_Search_Section_Header - The Advanced Search Section Header */
+#Advanced_Search_Title{
+    /* background-color:aquamarine; */
+    margin-top:35px;
+    margin-bottom:25px;
+    padding-left:60px;
+    font-family:Times New Roman;
+    font-size:12px;
+    color:red;
+}
+
+/* Advanced_Search_Section - The advanced search section */
+#Advanced_Search_Section{
+    /* background-color:burlywood; */
+    margin-top:50px;
+    padding-left:60px;
+}
+
+/* Find_Pages_With_Header - Find pages with header in the advanced search section */
+#Find_Pages_With_Header{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:normal;
+    font-size:20px;
+    color:rgb(68, 63, 63);
+}
+
+/*Advanced_Search_Labels - The Labels inside the advanced search section */
+.Advanced_Search_Labels{
+    font-size: 18px;
+    color:rgba(44, 39, 39, 0.788);
+}
+
+/*Advanced_Search_Input - The input tags inside the advanced search section*/
+.Advanced_Search_Input{
+    margin-bottom:20px;
+    width:630px;
+    height:25px;
+}
+#Label1{
+    margin-left:100px;
+}
+#Label2{
+    margin-left:26px;
+}
+#Label3{
+    margin-left:72px;
+}
+#Label4{
+    margin-left:63px;
+}
+
+/*Advanced_Search_Button - The advanced search button */
+#Advanced_Search_Button{
+    margin-top:9px;
+    margin-left:720px;
+    width:135px;
+    height:33px;
+    border-style:inherit;
+    border-radius:3px;
+    background-color:rgba(15, 95, 199, 0.733);
+    color: white;
+    font-weight:bold;
+    font-size:13px;
+}
+#Advanced_Search_Button:hover{
+    background-color:rgba(15, 95, 199, 0.788);
+}

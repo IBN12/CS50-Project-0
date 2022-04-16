@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="advance_styles.css">
+    </head>
+
+    <body>
+        <div id="Right_Corner_Link_Section"> <!--Right Corner Link Section Starts-->
+            <a class="Right_Corner_Links" href="index.html">Search</a>
+            <a class="Right_Corner_Links" href="image.html">Images</a>
+        </div> <!--Right Corner Link Section Ends-->
+
+        <div id="Google_Logo_Section"> <!--Google Logo Section Starts-->
+            <img src="Google_Logo.png" width="93" height="30">
+        </div> <!--Google Logo Section Ends-->
+
+        <div id="Advanced_Search_Title"> <!--Advanced Search Title Starts-->
+            <h1>Advanced Search</h1>
+        </div> <!--Advanced Search Title Ends-->
+
+        <hr />
+
+        <div id="Advanced_Search_Section"> <!--Advanced Search Section Starts-->
+            <form action="https://www.google.com/search">
+                <h3 id="Find_Pages_With_Header">Find pages with...</h3>
+                
+                <label class="Advanced_Search_Labels">all these words:</label>
+                <input id="Label1" class="Advanced_Search_Input" type="text" name="as_q">
+
+                <br />
+
+                <label class="Advanced_Search_Labels">this exact word or phrase:</label>
+                <input id="Label2" class="Advanced_Search_Input" type="text" name="as_epq">
+
+                <br />
+
+                <label class="Advanced_Search_Labels">any of these words:</label>
+                <input id="Label3" class="Advanced_Search_Input" type="text" name="as_oq">
+
+                <br />
+                <label class="Advanced_Search_Labels">none of these words:</label>
+                <input id="Label4" class="Advanced_Search_Input" type="text" name="as_eq">
+
+                <br />
+                <input id="Advanced_Search_Button" type="submit" value="Advanced Search">
+            </form> 
+        </div> <!--Advanced Search Section Ends-->
+    </body>
+</html> 

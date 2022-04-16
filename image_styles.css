@@ -1,0 +1,58 @@
+/*Right_Corner_Link_Section - The section will contain the links in the right corner*/
+#Right_Corner_Link_Section{
+    text-align:right;
+    /* background-color:aqua; */
+    padding:20px;
+}
+
+/*Right_Corner_Links - The links in the top right corner*/
+.Right_Corner_Links{
+    font-size:15px;
+    font-family:Arial;
+    margin:10px;
+    text-decoration:none;
+    color:black;
+}
+.Right_Corner_Links:hover{
+    text-decoration:underline;
+}
+
+/*Google_Image_Section - Search section for images*/
+#Google_Image_Search_Section{
+    text-align:center;
+    /* background-color:rebeccapurple; */
+    margin-top:180px;
+}
+
+/* Sub_Image_Logo - The Image print underneath the Google logo*/
+#Sub_Image_Logo_Section{
+    /* background-color:purple; */
+    padding-left:200px;
+    color: Blue;
+    font-family:Arial;
+    font-size:20px;
+    margin-bottom:12px;
+}
+
+/*Search_Bar - The Search Bar */
+#Search_Bar{
+    border:1px outset black;
+    border-radius:25px;
+    width:550px;
+    height:35px;
+    padding-left:20px;
+}
+
+/* Submit_Button - The Submit Button */
+#Submit_Button{
+    margin-top:20px;
+    width: 160px;
+    height: 35px;
+    background-color:white;
+    border-style:none;
+    border-radius: 4px;
+    font-size:16px;
+}
+#Submit_Button:hover{
+    border: 2px outset white;
+}

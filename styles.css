@@ -1,0 +1,70 @@
+/* Link_Section - The the link section */
+#Right_Corner_Link_Section{
+    /*background-color:blue;*/
+    text-align:right;
+    padding: 20px;
+}
+
+/* Right_Corner_Links - The links in the right corner of the webpage. */
+.Right_Corner_Links{
+    font-size:15px;
+    font-family:Arial;
+    margin:10px;
+    text-decoration:none;
+    color:black;
+}
+.Right_Corner_Links:hover{
+    text-decoration:underline;
+}
+
+/* Goole_Search_Section - This is the entire search section*/
+#Google_Search_Section{
+    text-align: center;
+    padding:20px;
+    /* background-color:chartreuse; */
+    margin-top:150px;
+}
+
+/*Google_Search_Logo_Section - Search Logo Section*/
+#Google_Search_Logo_Section{
+    /*background-color:aqua;*/
+    margin-bottom:30px;
+}
+
+/* Search_Bar - The google search bar */
+#Search_Bar{
+    border: 1px outset black;
+    border-radius:25px;
+    width:550px;
+    height:35px;
+    padding-left:20px
+}
+
+/* Submit_Button - The submit button */
+#Submit_Button{
+    margin-top:20px;
+    width:160px;
+    height:35px;
+    background-color:white;  
+    border-style:none;
+    border-radius: 4px; 
+    font-size:16px;
+}
+#Submit_Button:hover{
+    border: 2px outset white;
+}
+
+/* Im_Feeling_Lucky_Button - The I'm feeling lucky button */
+#Im_Feeling_Lucky_Button{
+    margin-top:20px;
+    margin-left:30px;
+    width: 160px;
+    height:35px;
+    background-color:white;
+    border-style:none;
+    border-radius: 4px;
+    font-size:16px;
+}
+#Im_Feeling_Lucky_Button:hover{
+    border: 2px outset white;
+}
